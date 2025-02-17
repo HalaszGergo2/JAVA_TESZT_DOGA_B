@@ -1,8 +1,10 @@
 package hu.ruander.alakzatok;
 
 public class Gomb extends FemAlakzat {
+    private double v;
+
     public Gomb(double v) {
-        super();
+        this.v = v;
     }
 
     @Override
@@ -12,6 +14,6 @@ public class Gomb extends FemAlakzat {
 
     @Override
     public double suly() {
-        return 4.817;
+        return v*getFajsuly();
     }
 }

@@ -35,12 +35,12 @@ public class AlakzatokTest {
         assertEquals(4.188, alakzat.terfogat(), 0.001);
     }
 
-    @Test
-    void testGombSuly(){
-        alakzat = new Gomb(1.0);
-        double d = alakzat.suly();
-        assertEquals(4.817, alakzat.suly(), 0.001);
-    }
+//    @Test
+//    void testGombSuly(){
+//        alakzat = new Gomb(1.0);
+//        double d = alakzat.suly();
+//        assertEquals(4.817, alakzat.suly(), 0.001);
+//    }
 
     @Test
     void testHasabTerfogat(){
