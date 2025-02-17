@@ -10,7 +10,7 @@ public class Hasab extends FemAlakzat {
     }
 
     @Override
-    double terfogat() {
+    public double terfogat() {
         return a*b*m;
     }
 
