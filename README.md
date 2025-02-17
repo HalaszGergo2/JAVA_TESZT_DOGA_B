@@ -1,0 +1,1 @@
+Halász Gergő B csoport
