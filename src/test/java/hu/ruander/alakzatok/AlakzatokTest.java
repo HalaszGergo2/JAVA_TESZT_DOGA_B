@@ -35,30 +35,30 @@ public class AlakzatokTest {
         assertEquals(4.188, alakzat.terfogat(), 0.001);
     }
 
-//    @Test
-//    void testGombSuly(){
-//        alakzat = new Gomb(1.0);
-//        double d = alakzat.suly();
-//        assertEquals(4.817, alakzat.suly(), 0.001);
-//    }
-//
-//    @Test
-//    void testHasabTerfogat(){
-//        alakzat = new Hasab(1.0, 1.0, 1.0);
-//        assertEquals(1, alakzat.terfogat(), 0.001);
-//    }
-//
-//    @Test
-//    void testHasabSuly(){
-//        alakzat = new Hasab(1.0, 1.0, 1.0);
-//        assertEquals(1.15, alakzat.suly(), 0.001);
-//    }
-//
-//    @Test
-//    void testHasabParamSorrend(){
-//        Hasab hasab = new Hasab(1,2,3);
-//        assertEquals(1, hasab.getA());
-//        assertEquals(2, hasab.getB());
-//        assertEquals(3, hasab.getM());
-//    }
+    @Test
+    void testGombSuly(){
+        alakzat = new Gomb(1.0);
+        double d = alakzat.suly();
+        assertEquals(4.817, alakzat.suly(), 0.001);
+    }
+
+    @Test
+    void testHasabTerfogat(){
+        alakzat = new Hasab(1.0, 1.0, 1.0);
+        assertEquals(1, alakzat.terfogat(), 0.001);
+    }
+
+    @Test
+    void testHasabSuly(){
+        alakzat = new Hasab(1.0, 1.0, 1.0);
+        assertEquals(1.15, alakzat.suly(), 0.001);
+    }
+
+    @Test
+    void testHasabParamSorrend(){
+        Hasab hasab = new Hasab(1,2,3);
+        assertEquals(1, hasab.getA());
+        assertEquals(2, hasab.getB());
+        assertEquals(3, hasab.getM());
+    }
 }

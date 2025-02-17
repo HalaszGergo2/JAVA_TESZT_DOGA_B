@@ -8,4 +8,6 @@ public abstract class FemAlakzat {
     public static double getFajsuly() {
         return fajsuly;
     }
+
+    public abstract double suly();
 }
